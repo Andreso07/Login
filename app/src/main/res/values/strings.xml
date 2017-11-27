@@ -1,0 +1,8 @@
+
+<resources>
+    <string name="app_name">Login</string>
+    <string name="univ">Universidad:</string>
+    <string name="umariana">Universidad Mariana</string>
+    <string name="salir">Salir</string>
+    <string name="acerca">Acerca de</string>
+</resources>

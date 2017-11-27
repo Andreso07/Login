@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Login</string>
+    <string name="Univ">University: </string>
+    <string name="Umariana">Mariana University</string>
+    <string name="aSalir">GetUp</string>
+    <string name="acerca">About</string>
+
+</resources>

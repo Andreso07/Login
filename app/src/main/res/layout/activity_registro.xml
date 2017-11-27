@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.andres.login.RegistroActivity"
+    android:orientation="vertical"
+    android:background="@drawable/fondo2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Digite sus datos "
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/etUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Usuario"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/etEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Edad"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/btnRegistrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrar"
+        android:layout_gravity="center"/>
+</LinearLayout>
