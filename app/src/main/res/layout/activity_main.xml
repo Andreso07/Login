@@ -21,7 +21,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:hint="User"
+        android:hint="UserName"
         android:inputType="text"
         android:paddingTop="10dp" />
 
@@ -53,11 +53,10 @@
         android:id="@+id/tvRegistrar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Registrate"
         android:layout_gravity="center"
-        android:textSize="25sp"
         android:layout_marginTop="5dp"
-        />
+        android:text="Registrate"
+        android:textSize="25sp" />
 
 
 
