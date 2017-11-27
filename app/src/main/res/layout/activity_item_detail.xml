@@ -32,33 +32,33 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:gravity="center_vertical"
-                        android:text="Carnes Rojas"
+                        android:text="Ajiaco"
                         android:textSize="25dp" />
 
                     <ImageView
                         android:id="@+id/imageView8"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        app:srcCompat="@drawable/parrcarne" />
+                        android:layout_height="200dp"
+                        app:srcCompat="@drawable/ajiacoo" />
 
                     <TextView
                         android:id="@+id/textView2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Descripcion: Carne a la parrilla"
+                        android:text="Descripcion: Choclo, pollo desmechado, quema de leche, alcaparras"
                         android:textSize="18sp" />
 
                     <ImageView
                         android:id="@+id/imageView9"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        app:srcCompat="@drawable/tablitacarne" />
+                        android:layout_height="200dp"
+                        app:srcCompat="@drawable/bandejapaisa" />
 
                     <TextView
                         android:id="@+id/textView"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Descripcion:  Carne de res, Carne cerdo, Carne de pollo a la plancha, chorizo picado, ensalada, papa a la francesa mas salsa."
+                        android:text="Descripcion: Frijoles, chicharron, aguacate, patacon, huevo, carne de res, arepa, arroz"
                         android:textSize="18sp" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>

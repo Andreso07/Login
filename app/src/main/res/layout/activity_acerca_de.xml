@@ -10,7 +10,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="200dp"
         android:background="@drawable/restaurante"
         android:orientation="vertical"></LinearLayout>
 
@@ -74,7 +74,8 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Esta aplicacion fue desarrollada por estudiantes de 9 semestre." />
+            android:text="Gustavo Barrios-Carlos Guerrero"
+            android:textSize="24sp" />
     </LinearLayout>
 
     <Button
@@ -85,7 +86,7 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_marginLeft="295dp"
-        android:layout_marginTop="350dp"
+        android:layout_marginTop="180dp"
         android:onClick="salir"
         android:text="Salir" />
 
