@@ -38,7 +38,7 @@
                 android:layout_height="match_parent">
 
                 <LinearLayout
-                    android:id="@+id/tab1"
+                    android:id="@+id/tab3"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical">
@@ -65,17 +65,17 @@
 
                                         android:layout_width="match_parent"
                                         android:layout_height="70sp"
-                                        app:srcCompat="@drawable/help" />
+                                        app:srcCompat="@drawable/breva" />
 
                                     <TextView
 
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
-                                        android:text="Postres"
+                                        android:text="Brevas"
                                         android:textSize="18sp" />
 
                                     <Button
-                                        android:id="@+id/btnCarView1Tab1"
+                                        android:id="@+id/btnCarView1Tab3"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:layout_marginBottom="20dp"
@@ -98,17 +98,17 @@
 
                                         android:layout_width="match_parent"
                                         android:layout_height="70sp"
-                                        app:srcCompat="@drawable/calamar" />
+                                        app:srcCompat="@drawable/fresas" />
 
                                     <TextView
 
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
-                                        android:text="Comida de mar"
+                                        android:text="Fresas"
                                         android:textSize="18sp" />
 
                                     <Button
-                                        android:id="@+id/btnCarView2Tab1"
+                                        android:id="@+id/btnCarView2Tab3"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:layout_marginBottom="20dp"
@@ -131,17 +131,17 @@
 
                                         android:layout_width="match_parent"
                                         android:layout_height="70sp"
-                                        app:srcCompat="@drawable/parrpollo" />
+                                        app:srcCompat="@drawable/jarralimonada" />
 
                                     <TextView
 
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
-                                        android:text="Carnes Blancas"
+                                        android:text="Jarra de limonada"
                                         android:textSize="18sp" />
 
                                     <Button
-                                        android:id="@+id/btnCarView3Tab1"
+                                        android:id="@+id/btnCarView3Tab3"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:layout_marginBottom="20dp"
@@ -149,42 +149,6 @@
 
 
                                 </LinearLayout>
-
-                            </android.support.v7.widget.CardView>
-
-                            <android.support.v7.widget.CardView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent">
-
-                                <LinearLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:orientation="vertical">
-
-                                    <ImageView
-
-                                        android:layout_width="match_parent"
-                                        android:layout_height="70sp"
-                                        app:srcCompat="@drawable/parrcarne" />
-
-                                    <TextView
-
-                                        android:layout_width="match_parent"
-                                        android:layout_height="wrap_content"
-                                        android:text="Carnes Rojas"
-                                        android:textSize="18sp" />
-
-                                    <Button
-                                        android:id="@+id/btnCarView4"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_marginBottom="20dp"
-                                        android:elevation="0dp"
-                                        android:text="Ver.." />
-
-
-                                </LinearLayout>
-
                             </android.support.v7.widget.CardView>
                         </LinearLayout>
                     </ScrollView>
@@ -218,13 +182,13 @@
 
                                         android:layout_width="match_parent"
                                         android:layout_height="70sp"
-                                        app:srcCompat="@drawable/limonada" />
+                                        app:srcCompat="@drawable/babybeeft" />
 
                                     <TextView
 
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
-                                        android:text="Liquidos"
+                                        android:text="Baby Beeft"
                                         android:textSize="18sp" />
 
                                     <Button
@@ -251,13 +215,13 @@
 
                                         android:layout_width="match_parent"
                                         android:layout_height="70sp"
-                                        app:srcCompat="@drawable/limonada" />
+                                        app:srcCompat="@drawable/chuhrrasco" />
 
                                     <TextView
 
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
-                                        android:text="Liquidos"
+                                        android:text="Churrasco"
                                         android:textSize="18sp" />
 
                                     <Button
@@ -284,13 +248,13 @@
 
                                         android:layout_width="match_parent"
                                         android:layout_height="70sp"
-                                        app:srcCompat="@drawable/limonada" />
+                                        app:srcCompat="@drawable/costillaaumada" />
 
                                     <TextView
 
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
-                                        android:text="Liquidos"
+                                        android:text="Costilla ahumada"
                                         android:textSize="18sp" />
 
                                     <Button
@@ -309,7 +273,7 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:id="@+id/tab3"
+                    android:id="@+id/tab1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical">
@@ -336,17 +300,17 @@
 
                                         android:layout_width="match_parent"
                                         android:layout_height="70sp"
-                                        app:srcCompat="@drawable/limonada" />
+                                        app:srcCompat="@drawable/ajiacoo" />
 
                                     <TextView
 
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
-                                        android:text="Liquidos"
+                                        android:text="Ajiaco"
                                         android:textSize="18sp" />
 
                                     <Button
-                                        android:id="@+id/btnCarView1Tab3"
+                                        android:id="@+id/btnCarView1Tab1"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:layout_marginBottom="20dp"
@@ -369,17 +333,17 @@
 
                                         android:layout_width="match_parent"
                                         android:layout_height="70sp"
-                                        app:srcCompat="@drawable/limonada" />
+                                        app:srcCompat="@drawable/bandejapaisa" />
 
                                     <TextView
 
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
-                                        android:text="Liquidos"
+                                        android:text="Bandeja paisa"
                                         android:textSize="18sp" />
 
                                     <Button
-                                        android:id="@+id/btnCarView2Tab3"
+                                        android:id="@+id/btnCarView2Tab1"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:layout_marginBottom="20dp"
@@ -402,17 +366,17 @@
 
                                         android:layout_width="match_parent"
                                         android:layout_height="70sp"
-                                        app:srcCompat="@drawable/limonada" />
+                                        app:srcCompat="@drawable/fritopastuso" />
 
                                     <TextView
 
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
-                                        android:text="Liquidos"
+                                        android:text="Frito pastuso"
                                         android:textSize="18sp" />
 
                                     <Button
-                                        android:id="@+id/btnCarView3Tab3"
+                                        android:id="@+id/btnCarView3Tab1"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:layout_marginBottom="20dp"
@@ -420,10 +384,47 @@
 
 
                                 </LinearLayout>
+
+                            </android.support.v7.widget.CardView>
+
+                            <android.support.v7.widget.CardView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+
+                                        android:layout_width="match_parent"
+                                        android:layout_height="70sp"
+                                        app:srcCompat="@drawable/locroo" />
+
+                                    <TextView
+
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Locro"
+                                        android:textSize="18sp" />
+
+                                    <Button
+                                        android:id="@+id/btnCarView4"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginBottom="20dp"
+                                        android:elevation="0dp"
+                                        android:text="Ver.." />
+
+
+                                </LinearLayout>
+
                             </android.support.v7.widget.CardView>
                         </LinearLayout>
                     </ScrollView>
                 </LinearLayout>
+
             </FrameLayout>
         </LinearLayout>
     </TabHost>

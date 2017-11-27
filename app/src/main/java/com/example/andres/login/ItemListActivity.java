@@ -38,7 +38,7 @@ public class ItemListActivity extends AppCompatActivity {
            //Tab3
            th.setup();
            TabHost.TabSpec ts3=th.newTabSpec("Tab3");
-           ts3.setIndicator("Postres");
+           ts3.setIndicator("Postres y bebidas");
            ts3.setContent(R.id.tab3);
 
            th.addTab(ts3);
