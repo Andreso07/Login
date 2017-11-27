@@ -8,71 +8,73 @@
     android:orientation="vertical">
 
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/restaurante"
+        android:orientation="vertical"></LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="40dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginTop="15dp"
-            android:orientation="horizontal">
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:text="Universidad" />
 
-            <TextView
+        <TextView
 
-                android:layout_width="40dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_weight="1"
-                android:text="Universidad" />
-
-            <TextView
-
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_weight="1"
-                android:text="Universidad Mariana" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginTop="15dp"
-            android:orientation="horizontal">
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:text="Universidad Mariana" />
 
-            <TextView
+    </LinearLayout>
 
-                android:layout_width="48dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_weight="1"
-                android:text="Facultad:" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
 
-            <TextView
+        <TextView
 
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_weight="1"
-                android:text="Facultad de ingenieria" />
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:text="Facultad:" />
 
-        </LinearLayout>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:text="Facultad de ingenieria" />
+
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20sp"
-        android:layout_marginTop="20dp"
         android:orientation="vertical">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Esta aplicacion fue desarrollada......" />
+            android:text="Esta aplicacion fue desarrollada por estudiantes de 9 semestre." />
     </LinearLayout>
 
     <Button
@@ -84,6 +86,7 @@
         android:layout_alignParentRight="true"
         android:layout_marginLeft="295dp"
         android:layout_marginTop="350dp"
-        android:onClick="salir" />
+        android:onClick="salir"
+        android:text="Salir" />
 
 </LinearLayout>
